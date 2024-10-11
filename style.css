@@ -3,16 +3,27 @@
     margin: 0%;
     box-sizing: border-box;
 }
-                        /* NAV SECTION */                     
 a{
     text-decoration: none;
 } 
-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+                                /* NAV SECTION */ 
+.logo{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 150px;
 }
 ul{
     list-style: none;  
@@ -21,12 +32,12 @@ ul{
     flex-direction: row;   
     vertical-align: middle; 
     justify-content: space-evenly;
-}
+}   
 ul li{
     margin-left: 70px;
     margin-top: 20px;
     margin-right: 20px;
-}
+}                                         
 li a{
     color: black;
 }
@@ -36,21 +47,22 @@ li a{
 .ri-wallet-line{
     font-size: 20px;
 }
-.logo{
-    margin-top: 15px;
-    margin-left: 70px;
-    width: 150px;
-}
+                                    /* Section 1 */
+video{
+    width: 100%;
+    height: 100%;    
+}                                    
 .text1{
-    position: fixed;
-    padding: 150px;
+    position: absolute;
+    top: 200px;
+    margin-left: 80px;
 }
-h3{
+.main1 h3{
     font-size: 40px;
     margin-bottom: 20px;
     margin-left: 120px;
 }
-h2{
+.main1 h2{
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -71,4 +83,108 @@ h2{
     color: black;
     font-weight: 800;
     box-shadow: 2px 2px 5px 0  black;
+}
+                                /* Section 2 */
+.main2{
+    display: flex;
+} 
+
+
+.cart1{
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;  
+    position: relative;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.cart1 h3{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.cart1 span{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+
+.cart2{
+    width: 25%;
+    border: 1px solid black;
+    height: 500px;
+    position: relative;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.cart2 h3{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.cart2 span{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+
+.cart3{
+    width: 25%;
+    border: 1px solid black;
+    position: relative;
+    height: 500px;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+}
+.cart3 h3{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.cart3 span{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+
+.cart4{
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.img4{
+    width: 100%;
+    height: 100%;
+}
+.cart4 h3{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.cart4 span{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+                                /* section 3 */
+.main3{
+    background-image: url("images/walletbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
