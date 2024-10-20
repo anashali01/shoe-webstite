@@ -95,12 +95,17 @@ video{
     display: flex;
 } 
 
+                               /* C  A  R  T   1 */
 
 .cart1{
     width: 25%;
     height: 500px;
     border: 1px solid black;  
     position: relative;
+    background-image: url("images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
 }
 .img1{
     width: 100%;
@@ -118,12 +123,17 @@ video{
     left: 20px;
 }
 
+                                      /* C  A  R  T   2 */
 
 .cart2{
     width: 25%;
     border: 1px solid black;
     height: 500px;
     position: relative;
+    background-image: url("images/img2.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
 }
 .img2{
     width: 100%;
@@ -141,12 +151,17 @@ video{
     left: 20px;
 }
 
+                                          /* C  A  R  T   3 */
 
 .cart3{
     width: 25%;
     border: 1px solid black;
     position: relative;
     height: 500px;
+    background-image: url("images/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
 }
 .img3{
     width: 100%;
@@ -164,12 +179,17 @@ video{
     left: 20px;
 }
 
+                                          /* C  A  R  T   4 */
 
 .cart4{
     width: 25%;
     height: 500px;
     border: 1px solid black;
     position: relative;
+    background-image: url("images/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
 }
 .img4{
     width: 100%;
@@ -187,7 +207,25 @@ video{
     left: 20px;
 }
 
-                                /* section 3 */
+                        /* H  O  V  E  R  */
+.cart1:hover{
+    background-image: url("images/img1\(2\).jpg");
+
+}
+.cart2:hover{
+    background-image: url("images/img2\(2\).jpg");
+
+}
+.cart3:hover{
+    background-image: url("images/img3\(2\).jpg");
+
+}
+.cart4:hover{
+    background-image: url("images/img4\(2\).jpg");
+
+}
+
+                                /* s  e  c  t  i  o  n  3 */
 .main3{
     background-image: url("images/walletbg-01.jpg");
     background-repeat: no-repeat;
@@ -219,7 +257,7 @@ video{
     color: black;
 }
 
-                            /* Section 4 */
+                            /* S  e  c  t  i  o  n  4 */
 .main4{
     background-image: url("images/bg.jpg");
     background-repeat: no-repeat;
@@ -227,7 +265,7 @@ video{
     height: 500px;
 }
 .text2{
-    padding-left: 150px;
+    padding-left: 190px;
     padding-top: 200px;
 }
 .text2 h3{
@@ -235,22 +273,25 @@ video{
     margin-bottom: 20px;
 }
 .text2 h2{
-    font-size: 50px;
-    transform: translateX(-30px);
-    margin-bottom: 20px;
+    font-size: 70px;
+    margin-bottom: 70px;
+    margin-left: -90px;
 }
 .text2 .btnn1{
     background-color:rgb(252, 252, 5);
     padding: 15px 80px;
     font-size: 15px;
-    margin-right: 20px;
+    margin-right: 40px;
     font-weight: 800; 
     color: black;
+    margin-left: -100px;
 }
 .text2 .btnn2{
     background-color:rgb(252, 252, 5);
-    padding: 15px 80px;
+    padding: 15px 70px;
     font-size: 15px;
     font-weight: 800; 
     color: black;
 }
+
+                            /* S  e  c  t  i  o  n  5 */
